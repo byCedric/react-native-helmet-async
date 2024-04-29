@@ -1,7 +1,7 @@
 {
-  "name": "react-helmet-async",
+  "name": "react-native-helmet-async",
   "version": "2.0.4",
-  "description": "Thread-safe Helmet for React 16+ and friends",
+  "description": "React Native fork of thread-safe Helmet for React 16+ and friends",
   "sideEffects": false,
   "main": "./lib/index.js",
   "module": "./lib/index.esm.js",
@@ -46,8 +46,7 @@
     "vitest": "0.34.6"
   },
   "peerDependencies": {
-    "react": "^16.6.0 || ^17.0.0 || ^18.0.0",
-    "react-dom": "^16.6.0 || ^17.0.0 || ^18.0.0"
+    "react": "^16.6.0 || ^17.0.0 || ^18.0.0"
   },
   "scripts": {
     "clean": "rimraf lib",
